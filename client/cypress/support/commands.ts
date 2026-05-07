@@ -37,6 +37,8 @@
 // }
 
 import Prisma from '@prisma/client';
+import 'cypress-file-upload';
+
 
 declare global {
   namespace Cypress {
